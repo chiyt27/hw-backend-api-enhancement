@@ -46,11 +46,11 @@ CREATE INDEX UsageAccountidIndex ON bill_detail (
 <img src="https://github.com/chiyt27/pic-repo/blob/master/hw-backend-api-enhancement/swagger%E6%88%AA%E5%9C%96.png?raw=true">
 
 
-###  未完成功能/需加強項目
+###  <font color="red">未完成功能/需加強項目</font>
 <ol>
 	<li>應該開放API介面上傳 csv 將資料送入DB。</li>
 	<li>SQLite目前撈資料很常發生 DB 資料無法轉換回 decimal。</li>
-	<li><b><i>Target.3.ii</i></b> 的資料是寫死的，不是來自DB。</li>
+	<li><b><i>Target.3.ii</i></b> (文件要求取得每日資源使用量功能) 的資料是寫死的，不是來自DB。</li>
 	<li>發生例外或錯誤情況時的 response 格式需處理。</li>
 	<li>尚未處理效能議題。</li>
 	<li>應該加入log。</li>
