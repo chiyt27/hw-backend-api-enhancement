@@ -43,7 +43,7 @@ CREATE INDEX UsageAccountidIndex ON bill_detail (
 | /api​/Billing​/getCostSumByAccountId​/{accountid} | 輸入UsageAccountId，根據ProductName分組計算出 Cost 總和 |
 | /api​/Billing​/getDailyAmountByAccountId​/{accountid} | 輸入UsageAccountId，根據ProductName分組列出每日的資源使用量(UsageAmount) |
 
-<img src="https://github.com/chiyt27/pic-repo/blob/master/hw-backend-api-enhancement/swagger%E6%88%AA%E5%9C%96.png?raw=true	">
+<img src="https://github.com/chiyt27/pic-repo/blob/master/hw-backend-api-enhancement/swagger%E6%88%AA%E5%9C%96.png?raw=true">
 
 
 ###  未完成功能/需加強項目
