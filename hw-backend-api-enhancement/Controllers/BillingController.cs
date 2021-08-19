@@ -39,7 +39,7 @@ namespace hw_backend_api_enhancement.Controllers
             return JsonConvert.SerializeObject(service.GetCostSumByAccountid(accountid));
         }
 
-        [HttpGet("getDailyAmountByAccountId{accountid}")]
+        [HttpGet("getDailyAmountByAccountId/{accountid}")]
         public string getDailyAmountByAccountId(string accountid)
         {
             var jsonSettings = new JsonSerializerSettings();
